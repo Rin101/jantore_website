@@ -14,13 +14,27 @@ export default function Privacy() {
       <div className={commonStyles.pageTitleDivider}></div>
 
       <div className={styles.privacyContainer}>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam neque nisl, eleifend at elit viverra, dictum efficitur justo. Nulla id pretium lacus. Sed ut rutrum sapien. Donec eleifend interdum sem et pulvinar. Praesent pretium, libero nec commodo lacinia, purus nunc posuere dui, in bibendum quam sem non massa. In elementum augue metus, nec varius urna luctus sagittis. Duis id purus consequat, commodo turpis ut, tempor ligula. Curabitur fringilla consectetur nisi. Donec sodales lorem at condimentum faucibus. Fusce tincidunt, leo vel pretium pharetra, risus ipsum suscipit ipsum, quis elementum nisi urna non nibh. Aenean elementum nibh eget arcu laoreet, vel vulputate enim tincidunt.<br/>
-            Nulla commodo condimentum fermentum. Nulla viverra molestie turpis, vitae gravida ante mollis ac. In tempus mauris massa, convallis efficitur urna vestibulum ut. Vestibulum id accumsan leo, eget rhoncus odio. Nulla ac varius eros. Cras pretium dui nec bibendum cursus. Nulla facilisi. Nam odio diam, fringilla sed mauris eu, viverra blandit sapien.<br/>
-            Vestibulum blandit massa ac ipsum egestas placerat. Quisque porta ipsum elit, sit amet pellentesque nisl pretium ac. Ut erat urna, posuere vel ullamcorper ac, aliquam ut turpis. Aliquam ac dolor sed magna tempus placerat. Vivamus laoreet, tortor ut tincidunt laoreet, ipsum massa consectetur nisl, in facilisis urna arcu eget massa. In fringilla elit mi, vel vestibulum nisl rhoncus non. Nunc fringilla aliquet sollicitudin.<br/>
-            Sed odio est, posuere at suscipit vel, fringilla ac odio. Ut nec sagittis lorem. Maecenas vel eleifend nisl, vel egestas eros. Fusce auctor lacus sapien, at maximus tortor ultricies nec. Etiam ullamcorper tortor in malesuada vestibulum. Nam luctus in lacus quis pulvinar. Morbi venenatis suscipit blandit. Vestibulum porttitor malesuada venenatis. Nulla volutpat, nisi sit amet vehicula vehicula, sem est volutpat magna, nec sagittis nisi arcu a tellus. Etiam ultrices gravida tempus. Nullam dapibus quam eu velit aliquam auctor. Vestibulum blandit mi metus, id pharetra sem venenatis vel.<br/>
-            Aliquam at bibendum mi. Ut blandit enim quis urna rhoncus, sed blandit est consectetur. Maecenas gravida arcu nulla, sit amet rhoncus tortor gravida at. Sed vel porttitor nunc. Vestibulum consequat dolor consectetur dolor luctus aliquet. Duis auctor vulputate luctus. Donec aliquet convallis posuere.<br/>
+        <p className={styles.text}>第三者に個人を特定できる情報を提供することはありません。</p>
+        <p className={styles.text}>個人情報の管理には最新の注意を払い、以下に掲げた通りに扱います。</p>
+
+        <p className={styles.label}>サポート時</p>
+        <p className={styles.text}>
+          サポートメールに、問題解決のための端末種類、OSバージョン等が本文として記述されます。
+          個人を特定できる情報は一切送信されません。
         </p>
+
+        <p className={styles.label}>データ解析</p>
+        <p className={styles.text}>
+          アプリの利便性向上のため、匿名で個人を特定できない範囲で最新の注意を払い、アクセス解析をしております。 
+          例えばアプリのクラッシュ時にどんな原因でクラッシュしたかを匿名で送信して、バグの素早い修正に役立たせております。
+        </p>
+
+        <p className={styles.label}>免責事項</p>
+        <p className={styles.text}>
+          利用上の不具合・不都合に対して可能な限りサポートを行っておりますが、利用者が本アプリを利用して生じた損害に関して、
+          開発元は責任を負わないものとします。
+        </p>
+
       </div>
 
       <div style={{margin: 200}}></div>
