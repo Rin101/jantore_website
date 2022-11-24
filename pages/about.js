@@ -1,5 +1,6 @@
 import { NextSeo } from 'next-seo';
 import Image from 'next/image'
+import commonStyles from '../styles/Common.module.css'
 import styles from '../styles/About.module.css'
 
 const getAge = () => {
@@ -21,13 +22,13 @@ const getAge = () => {
 export default function About() {
 
     return (
-        <div className={styles.container}>
+        <div className={commonStyles.container}>
             <NextSeo
                 title="運営会社 | 雀トレ - 麻雀の教科書アプリ"
                 description="雀トレの運営会社情報"
             />
-            <h1 className={styles.pageTitle}>About Us</h1>
-            <div className={styles.pageTitleDivider}></div>
+            <h1 className={commonStyles.pageTitle}>About Us</h1>
+            <div className={commonStyles.pageTitleDivider}></div>
             <div className={styles.aboutMe}>
                 <div className={styles.avatarContainer}>
                     <Image height={100} width={100} src={'/img/male_avatar.svg'} alt={'male avatar'} />

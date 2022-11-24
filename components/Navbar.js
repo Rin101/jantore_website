@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import styles from '../styles/Navbar.module.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
 
@@ -13,12 +15,12 @@ const Navbar = () => {
         <Link href="/"><h1>雀トレ</h1></Link>
       </div>
       <div className={styles.menuButton} onClick={() => setIsMenuShown(true)}>
-        <i className="fa-solid fa-bars"></i>
+        <FontAwesomeIcon icon={faBars} />
       </div>
       <div className={styles.menu} style={{right: isMenuShown? 0 : "-"+menuWidth}}>
         <div className={styles.closeButtonContainer}>
           <div className={styles.closeButton} onClick={() => setIsMenuShown(false)}>
-            <i className="fa-solid fa-xmark"></i>
+            <FontAwesomeIcon icon={faXmark} />
           </div>
         </div>
         <div className={styles.menuItemContainer}>

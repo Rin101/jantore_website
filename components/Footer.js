@@ -37,7 +37,7 @@ const Footer = () => {
           <Link href="/about">利用規約</Link>
         </div>
         <div className={styles.footerLink}>
-          <Link href="/about">プライバシーポリシー</Link>
+          <Link href="/privacy">プライバシー</Link>
         </div>
         <div className={styles.footerLink}>
           <Link href="/about">運営会社</Link>
