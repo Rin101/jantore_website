@@ -1,0 +1,71 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F9FBFE;
+    color: #2B546A;
+    padding: 2rem 0;
+}
+
+.pageTitle {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.pageTitleDivider {
+    height: 3px;
+    width: 20px;
+    background-color: #2B546A;
+    opacity: 0.3;
+    border-radius: 100vw;
+    margin: 0.2rem 0 1.5rem 0;
+}
+
+/* ============== */
+.aboutMe {
+    margin-bottom: 1rem;
+    width: 80%;
+}
+
+.avatarContainer {
+    margin-bottom: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.myName {
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.myRealName {
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+}
+
+.myPosition {
+    margin-bottom: 0.3rem;
+}
+
+/* =========== */
+.contact {
+    margin: 1rem;
+    padding: 0.3rem 01rem;
+    border-radius: 0.5rem;
+    background-color: rgba(30, 91, 250, 0.1);
+}
+
+.contactText {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0.3rem;
+}
+
+.contactInfo {
+    font-family: sans-serif;
+    margin-bottom: 0.1rem;
+}

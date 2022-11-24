@@ -1,0 +1,23 @@
+.notFound {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.notFoundText {
+    margin: 5rem 0 0 0;
+}
+
+.toHomeButton {
+    margin: 2rem 0 4rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: #1E5BFA;
+    color: white;
+    font-weight: 700;
+    box-shadow: 0px 11px 23px 0px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 11px 23px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 11px 23px 0px rgba(0,0,0,0.3);
+}
