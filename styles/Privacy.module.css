@@ -11,3 +11,8 @@
 .text {
     margin: 0.5rem 0;
 }
+
+/* ========== */
+.nestedList {
+    margin-left: 1rem;
+}
