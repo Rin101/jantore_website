@@ -39,7 +39,7 @@ export default function About() {
                 <p className={styles.myInfo}>{ getAge() }歳・東京在住</p>
             </div>
             <div className={styles.contact}>
-                <p className={styles.contactText}>Contact</p>
+                <p className={styles.contactText}>コンタクト</p>
                 <p className={styles.contactInfo}>wayoftheforce101@gmail.com</p>
                 <p className={styles.contactInfo}>090-9292-4912</p>
                 {/* <p>portfolio: <a href='https://rin-portfolio.vercel.app/'>rin-portfolio.vercell.app</a></p> */}
