@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
         <div className={styles.linkDivider}></div>
         <div className={styles.footerLink}>
-          <Link href="/about">ヘルプ・お問い合わせ</Link>
+          <Link href="/contact">ヘルプ・お問い合わせ</Link>
         </div>
         <div className={styles.footerLink}>
           <Link href="/terms-of-use">利用規約</Link>
@@ -40,7 +40,7 @@ const Footer = () => {
           <Link href="/privacy">プライバシー</Link>
         </div>
         <div className={styles.footerLink}>
-          <Link href="/about">運営会社</Link>
+          <Link href="/about-us">運営会社</Link>
         </div>
         <div className={styles.linkDivider}></div>
         <div className={styles.copyrightContainer}>

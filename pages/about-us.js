@@ -36,7 +36,7 @@ export default function About() {
                 <p className={styles.myName}>RIN</p>
                 <p className={styles.myRealName}>柏原 凛太郎 / Rintaro Kashiwabara</p>
                 <p className={styles.myPosition}>Founder / CEO</p>
-                <p className={styles.myInfo}>17歳・東京在住・起業家集団H.A.Dのリーダー / I&apos;m { getAge() }, Currently in Tokyo, Leader of H.A.D</p>
+                <p className={styles.myInfo}>{ getAge() }歳・東京在住</p>
             </div>
             <div className={styles.contact}>
                 <p className={styles.contactText}>Contact</p>

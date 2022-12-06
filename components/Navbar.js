@@ -25,8 +25,8 @@ const Navbar = () => {
         </div>
         <div className={styles.menuItemContainer}>
           <Link href={"/"}><p className={styles.menuItemText} onClick={() => setIsMenuShown(false)}>雀トレって何?</p></Link>
-          <Link href={"/about"}><p className={styles.menuItemText} onClick={() => setIsMenuShown(false)}>お問い合わせ</p></Link>
-          <Link href={"/about"}><p className={styles.menuItemText} onClick={() => setIsMenuShown(false)}>運営会社</p></Link>
+          <Link href={"/contact"}><p className={styles.menuItemText} onClick={() => setIsMenuShown(false)}>お問い合わせ</p></Link>
+          <Link href={"/about-us"}><p className={styles.menuItemText} onClick={() => setIsMenuShown(false)}>運営会社</p></Link>
         </div>
       </div>
     </div>
