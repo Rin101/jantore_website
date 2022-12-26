@@ -27,7 +27,7 @@ export default function About() {
                 title="運営会社 | 雀トレ - 麻雀の教科書アプリ"
                 description="雀トレの運営会社情報"
             />
-            <h1 className={commonStyles.pageTitle}>About Us</h1>
+            <h1 className={commonStyles.pageTitle}>運営者情報</h1>
             <div className={commonStyles.pageTitleDivider}></div>
             <div className={styles.aboutMe}>
                 <div className={styles.avatarContainer}>
