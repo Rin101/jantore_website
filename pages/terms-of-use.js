@@ -232,6 +232,13 @@ export default function Privacy() {
           </li>
         </ol>
 
+        <p className={styles.label}>第16条(配信されているレッスンの変更・停止)</p>
+        <ol className={styles.text}>
+          <li>
+            <p>配信されているレッスンは、予告なく内容を変更、または配信を停止することがあります。</p>
+          </li>
+        </ol>
+
       </div>
     </div>
   )
