@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
         <div className={styles.linkDivider}></div>
         <div className={styles.copyrightContainer}>
-          <p className={styles.copyright}>©2022 RIN</p>
+          <p className={styles.copyright}>© Rintaro Kashiwabara 2023 </p>
         </div>
       </div>
     );
