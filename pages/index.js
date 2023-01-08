@@ -9,7 +9,7 @@ export default function Home() {
     <div className={styles.container}>
       <NextSeo
         title="雀トレ - 麻雀の教科書アプリ"
-        description="麻雀トレーニングアプリの完全版, 麻雀の教科書"
+        description="わかりやすいレッスンで麻雀強者に生まれ変わろう! 新しい麻雀の教科書"
       />
       <div className={styles.top}>
         <div className={styles.topTextContainer}>
@@ -18,7 +18,7 @@ export default function Home() {
         </div>
         <div className={styles.badgeImgWrapper}>
           <div className={styles.appStoreBadge}>
-            <a href="https://play.google.com/store/apps/details?id=com.rinrinrinrin.jantore&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+            <a href="https://apps.apple.com/us/app/%E9%9B%80%E3%83%88%E3%83%AC-%E9%BA%BB%E9%9B%80%E3%81%AE%E6%95%99%E7%A7%91%E6%9B%B8/id1660440119">
               <Image width={250} height={83} className={styles.appStoreBadgeImg} src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ja-jp?size=250x83&amp;releaseDate=1352764800&h=3c88de21759ebc588380aab13944566f" alt="Download on the App Store" />
             </a>
           </div>
