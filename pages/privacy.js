@@ -173,17 +173,6 @@ export default function Privacy() {
           </li>
         </ol>
 
-        <p className={styles.label}>第10条(お問い合わせ窓口)</p>
-        <p className={styles.text}>本ポリシーに関するお問い合わせは，下記の窓口までお願いいたします。</p>
-        <ul className={styles.text}>
-          <li>
-            <p>担当者 / 代表者: 柏原 凛太郎 (カシワバラ リンタロウ)</p>
-          </li>
-          <li>
-            <p>Eメールアドレス: wayoftheforce101@gmail.com</p>
-          </li>
-        </ul>
-
       </div>
     </div>
   )

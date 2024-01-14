@@ -25,11 +25,7 @@ export default function Contact() {
                         <div className={styles.mailIcon}>
                             <FontAwesomeIcon icon={faEnvelope} />
                         </div>
-                        <p className={styles.email}>wayoftheforce101@gmail.com</p>
                     </div>
-                    <p className={styles.note}>※ 件名に「雀トレ-問い合わせ」を含めていただきますようよろしくお願いします。</p>
-                    <p className={styles.tantousha}>担当者</p>
-                    <p className={styles.name}>柏原 凛太郎 / カシワバラ リンタロウ</p>
                 </div>
             </div>
         </div>
