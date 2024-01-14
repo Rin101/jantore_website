@@ -33,15 +33,7 @@ export default function About() {
                 <div className={styles.avatarContainer}>
                     <Image height={100} width={100} src={'/img/male_avatar.svg'} alt={'male avatar'} />
                 </div>
-                <p className={styles.myName}>RIN</p>
-                <p className={styles.myRealName}>柏原 凛太郎 / Rintaro Kashiwabara</p>
-                <p className={styles.myPosition}>Founder / CEO</p>
-                <p className={styles.myInfo}>{ getAge() }歳・東京在住</p>
-            </div>
-            <div className={styles.contact}>
-                <p className={styles.contactText}>メールアドレス</p>
-                <p className={styles.contactInfo}>wayoftheforce101@gmail.com</p>
-                {/* <p>portfolio: <a href='https://rin-portfolio.vercel.app/'>rin-portfolio.vercell.app</a></p> */}
+                <p className={styles.myName}>Jantore</p>
             </div>
         </div>
     )
